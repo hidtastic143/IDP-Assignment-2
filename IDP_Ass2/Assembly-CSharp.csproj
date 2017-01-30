@@ -45,13 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Shop\ArmourObject.cs" />
-     <Compile Include="Assets\Scripts\Shop\ButtonToggler.cs" />
-     <Compile Include="Assets\Scripts\Shop\ShopBehavior.cs" />
-     <Compile Include="Assets\Scripts\Shop\ShopButtonBehavior.cs" />
-     <Compile Include="Assets\Scripts\Shop\ShopListOption.cs" />
-     <Compile Include="Assets\Scripts\Shop\ShopObject.cs" />
-     <Compile Include="Assets\Scripts\Shop\WeaponObject.cs" />
+     <Compile Include="Assets\Scripts\Hid\GameUI\LoadNewScene.cs" />
+     <Compile Include="Assets\Scripts\Hid\Shop\ArmourObject.cs" />
+     <Compile Include="Assets\Scripts\Hid\Shop\ButtonToggler.cs" />
+     <Compile Include="Assets\Scripts\Hid\Shop\ConsumableObject.cs" />
+     <Compile Include="Assets\Scripts\Hid\Shop\ShopBehavior.cs" />
+     <Compile Include="Assets\Scripts\Hid\Shop\ShopButtonBehavior.cs" />
+     <Compile Include="Assets\Scripts\Hid\Shop\ShopListOption.cs" />
+     <Compile Include="Assets\Scripts\Hid\Shop\ShopObject.cs" />
+     <Compile Include="Assets\Scripts\Hid\Shop\WeaponObject.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

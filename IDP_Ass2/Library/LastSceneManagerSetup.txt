@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Hid/Shop.unity
+- path: Assets/Scenes/Mal/MainMenu.unity
   isLoaded: 1
   isActive: 1

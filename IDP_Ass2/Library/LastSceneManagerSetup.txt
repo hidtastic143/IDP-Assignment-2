@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Mal/MainMenu.unity
+- path: Assets/Scenes/Mal/Dialogue.unity
   isLoaded: 1
   isActive: 1

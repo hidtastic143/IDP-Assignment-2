@@ -45,9 +45,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ButtonToggler.cs" />
-     <Compile Include="Assets\Scripts\ShopBehavior.cs" />
-     <Compile Include="Assets\Scripts\ShopButtonBehavior.cs" />
+     <Compile Include="Assets\Scripts\Shop\ArmourObject.cs" />
+     <Compile Include="Assets\Scripts\Shop\ButtonToggler.cs" />
+     <Compile Include="Assets\Scripts\Shop\ShopBehavior.cs" />
+     <Compile Include="Assets\Scripts\Shop\ShopButtonBehavior.cs" />
+     <Compile Include="Assets\Scripts\Shop\ShopListOption.cs" />
+     <Compile Include="Assets\Scripts\Shop\ShopObject.cs" />
+     <Compile Include="Assets\Scripts\Shop\WeaponObject.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

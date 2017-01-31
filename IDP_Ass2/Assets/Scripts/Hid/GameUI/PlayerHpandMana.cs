@@ -32,7 +32,7 @@ public class PlayerHpandMana : MonoBehaviour {
 
     void ShopRender()
     {
-        SceneManager.LoadScene("Shop");
+        SceneManager.LoadScene("Dialogue");
     }
 
     public void ShopCheck()

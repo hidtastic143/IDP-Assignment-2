@@ -26,10 +26,35 @@ public class Menu : MonoBehaviour {
 
     public void LoadOn()
     {
-        SceneManager.LoadScene("Dialogue");
+        SceneManager.LoadScene("GameUI");
     }
     public void ReturnToMain()
     {
         SceneManager.LoadScene("MainMenu");
     }
+    public void ReturnToAudio()
+    {
+        SceneManager.LoadScene("Audio");
+    }
+    public void PauseQuest()
+    {
+        SceneManager.LoadScene("Quest");
+    }
+    public void PauseInv()
+    {
+        SceneManager.LoadScene("Inventory");
+    }
+    public void PauseSK()
+    {
+        SceneManager.LoadScene("Skill_Tree");
+    }
+    public void PauseMap()
+    {
+        SceneManager.LoadScene("Map");
+    }
+    public void LevelSelect()
+    {
+        SceneManager.LoadScene("LevelMenuSelection");
+    }
+
 }

@@ -56,5 +56,10 @@ public class Menu : MonoBehaviour {
     {
         SceneManager.LoadScene("LevelMenuSelection");
     }
+    public void WIPSelect()
+    {
+        SceneManager.LoadScene("WIP");
+    }
+
 
 }

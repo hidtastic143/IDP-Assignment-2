@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: 0d59b6a3daaaa3446b6dcb72a8beb765
+timeCreated: 1485859871
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ezio_0
+    21300002: Ezio_1
+    21300004: Ezio_2
+    21300006: Ezio_3
+    21300008: Ezio_4
+    21300010: Ezio_5
+    21300012: Ezio_6
+    21300014: Ezio_7
+    21300016: Ezio_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ezio_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 29.5}
+        - {x: -18, y: 24.5}
+        - {x: -18, y: -14.5}
+        - {x: -3, y: -29.5}
+        - {x: 12, y: -29.5}
+        - {x: 18, y: -13.5}
+        - {x: 18, y: 29.5}
+    - name: Ezio_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 7
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 30}
+        - {x: -19.5, y: 21}
+        - {x: -19.5, y: -5}
+        - {x: -13.5, y: -30}
+        - {x: 3.5, y: -30}
+        - {x: 19.5, y: -19}
+        - {x: 19.5, y: 30}
+    - name: Ezio_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 8
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 19.5}
+        - {x: 18, y: 29.5}
+        - {x: 5, y: 29.5}
+        - {x: 0, y: 28.5}
+        - {x: -23, y: 15.5}
+        - {x: -23, y: -1.5}
+        - {x: -20, y: -29.5}
+        - {x: -12, y: -29.5}
+        - {x: 0, y: -24.5}
+        - {x: 21, y: -8.5}
+        - {x: 23, y: 2.5}
+    - name: Ezio_3
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 4
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 6.5}
+        - {x: 19.5, y: 14.5}
+        - {x: 19.5, y: 30.5}
+        - {x: 1.5, y: 30.5}
+        - {x: -19.5, y: 18.5}
+        - {x: -19.5, y: -19.5}
+        - {x: -18.5, y: -26.5}
+        - {x: 5.5, y: -30.5}
+        - {x: 16.5, y: -30.5}
+        - {x: 17.5, y: -29.5}
+        - {x: 19.5, y: -20.5}
+        - {x: 19.5, y: 5.5}
+    - name: Ezio_4
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 4
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 30.5}
+        - {x: -23.5, y: 28.5}
+        - {x: -23.5, y: -20.5}
+        - {x: -13.5, y: -30.5}
+        - {x: 23.5, y: -30.5}
+        - {x: 23.5, y: 9.5}
+        - {x: 20.5, y: 24.5}
+        - {x: 19.5, y: 30.5}
+    - name: Ezio_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 3
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 30}
+        - {x: -20, y: 27}
+        - {x: -20, y: -7}
+        - {x: -13, y: -30}
+        - {x: 15, y: -30}
+        - {x: 20, y: -6}
+        - {x: 20, y: 29}
+        - {x: 19, y: 30}
+    - name: Ezio_6
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 2
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 30.5}
+        - {x: 1, y: 30.5}
+        - {x: -22, y: 17.5}
+        - {x: -22, y: -30.5}
+        - {x: 5, y: -30.5}
+        - {x: 22, y: -16.5}
+        - {x: 22, y: 17.5}
+        - {x: 19, y: 29.5}
+    - name: Ezio_7
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 0
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 30}
+        - {x: -24.5, y: 23}
+        - {x: -24.5, y: -30}
+        - {x: 16.5, y: -30}
+        - {x: 25.5, y: -1}
+        - {x: 25.5, y: 20}
+        - {x: 17.5, y: 30}
+      - - {x: -2.5, y: -30}
+        - {x: -2.5, y: -28}
+        - {x: -5.5, y: -27}
+        - {x: -7.5, y: -30}
+    - name: Ezio_8
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 3
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 31.5}
+        - {x: -21, y: 22.5}
+        - {x: -21, y: -20.5}
+        - {x: -9, y: -31.5}
+        - {x: 21, y: -31.5}
+        - {x: 21, y: 23.5}
+        - {x: 18, y: 31.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

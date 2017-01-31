@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{2781974E-6D7F-E92A-8A21-D3F6A86204ED}") = "IDP_Ass2", "Assembly-CSharp.csproj", "{924F0B55-96C3-74BF-DA28-23D63B9991F6}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP_Ass2", "IDP_Ass2.csproj", "{22A6BCAB-67E2-8F68-7932-C45974E77F13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{924F0B55-96C3-74BF-DA28-23D63B9991F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{924F0B55-96C3-74BF-DA28-23D63B9991F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{924F0B55-96C3-74BF-DA28-23D63B9991F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{924F0B55-96C3-74BF-DA28-23D63B9991F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A6BCAB-67E2-8F68-7932-C45974E77F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A6BCAB-67E2-8F68-7932-C45974E77F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A6BCAB-67E2-8F68-7932-C45974E77F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A6BCAB-67E2-8F68-7932-C45974E77F13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

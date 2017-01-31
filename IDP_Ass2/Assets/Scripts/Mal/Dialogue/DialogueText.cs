@@ -16,7 +16,7 @@ public class DialogueText : MonoBehaviour
 	private string textToType;
 	private bool typing;
 	private Text textComp;
-    //string[] DialogueText1 = new string[] { "1. Laik's super awesome custom typewriter script 2. You can click to skip to the next text", "3.All text is stored in a single string array", "4. Ok, now we can continue", "5. End Kappa" };
+    //string[] DialogueText1 = new string[] { "1. Laik's super awesome custom typewriter script", "2. You can click to skip to the next text", "3.All text is stored in a single string array", "4. Ok, now we can continue", "5. End Kappa" };
     //string[] DialogueText2 = new string[] { "asdasdasd click to skip to the next text", "3.All text is stored in a single string array", "4. Ok, now we can continue", "5. End Kappa" };
     void Awake()
 	{ 

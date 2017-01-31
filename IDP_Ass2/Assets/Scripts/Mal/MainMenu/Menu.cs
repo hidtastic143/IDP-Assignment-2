@@ -58,17 +58,17 @@ public class Menu : MonoBehaviour {
     {
         SceneManager.LoadScene("LevelMenuSelection");
     }
-<<<<<<< HEAD
     public void WIPSelect()
     {
         SceneManager.LoadScene("WIP");
     }
 
-
-=======
     public void GoToShop()
     {
         SceneManager.LoadScene("Shop");
     }
->>>>>>> 12a67baed333528e9d310ef30f41fbadebce2045
+    public void MenuProgress()
+    {
+        SceneManager.LoadScene("Progress");
+    }
 }

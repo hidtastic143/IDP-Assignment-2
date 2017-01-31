@@ -9,6 +9,8 @@ public class Menu : MonoBehaviour {
 
     void Awake()
     {
+        if (OptionsCanvas == null)
+            return;
         OptionsCanvas.enabled = false;
     }
 
@@ -56,5 +58,8 @@ public class Menu : MonoBehaviour {
     {
         SceneManager.LoadScene("LevelMenuSelection");
     }
-
+    public void GoToShop()
+    {
+        SceneManager.LoadScene("Shop");
+    }
 }

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ConsumableObject : ShopObject {
 
-    string DescriptionOfItem;
+    public string DescriptionOfItem;
 
 	// Use this for initialization
 	void Start () {
@@ -12,12 +12,16 @@ public class ConsumableObject : ShopObject {
 	
 	// Update is called once per frame
 	void Update () {
+        if (active)
+            ShowOnScreen();
+        else
+            DontShowOnScreen();
 	
 	}
 
     public override void ShowOnScreen()
     {
         base.ShowOnScreen();
-        description.text = DescriptionOfItem;
+        description.text = "Description : " + DescriptionOfItem;
     }
 }

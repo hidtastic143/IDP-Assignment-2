@@ -5,8 +5,8 @@ using System.Collections;
 
 public class ShopBehavior : MonoBehaviour {
 
-    public GameObject WeaponList, ArmourList, ConsumablesList, SellList;
-    public GameObject WeaponPreview, ArmourPreview, ConsumablesPreview, SellPreview;
+    public GameObject WeaponList, ArmourList, ConsumablesList;
+    public GameObject WeaponPreview, ArmourPreview, ConsumablesPreview;
 
 	// Use this for initialization
 	void Start () {
@@ -23,13 +23,11 @@ public class ShopBehavior : MonoBehaviour {
         WeaponList.SetActive(true);
         ArmourList.SetActive(false);
         ConsumablesList.SetActive(false);
-        SellList.SetActive(false);
 
         // Left Panel Activation
         WeaponPreview.SetActive(true);
         ArmourPreview.SetActive(false);
         ConsumablesPreview.SetActive(false);
-        SellPreview.SetActive(false);
     }
 
     public void ShowArmour()
@@ -38,13 +36,11 @@ public class ShopBehavior : MonoBehaviour {
         WeaponList.SetActive(false);
         ArmourList.SetActive(true);
         ConsumablesList.SetActive(false);
-        SellList.SetActive(false);
 
         // Left Panel Activation
         WeaponPreview.SetActive(false);
         ArmourPreview.SetActive(true);
         ConsumablesPreview.SetActive(false);
-        SellPreview.SetActive(false);
     }
 
     public void ShowConsumables()
@@ -53,27 +49,10 @@ public class ShopBehavior : MonoBehaviour {
         WeaponList.SetActive(false);
         ArmourList.SetActive(false);
         ConsumablesList.SetActive(true);
-        SellList.SetActive(false);
 
         // Left Panel Activation
         WeaponPreview.SetActive(false);
         ArmourPreview.SetActive(false);
         ConsumablesPreview.SetActive(true);
-        SellPreview.SetActive(false);
-    }
-
-    public void ShowSell()
-    {
-        // Right Panel Activation
-        WeaponList.SetActive(false);
-        ArmourList.SetActive(false);
-        ConsumablesList.SetActive(false);
-        SellList.SetActive(true);
-
-        // Left Panel Activation
-        WeaponPreview.SetActive(false);
-        ArmourPreview.SetActive(false);
-        ConsumablesPreview.SetActive(false);
-        SellPreview.SetActive(true);
     }
 }

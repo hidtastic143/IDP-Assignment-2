@@ -5,10 +5,13 @@ public class Player_Movement : MonoBehaviour {
 
     private Animator animation;
     public Joy_Behavior moveJoystick;
+    static Vector3 CurrentPosition;
     private Vector3 PrevVel, CurrentVel;
 
 	// Use this for initialization
 	void Start () {
+        if (CurrentPosition != Vector3.zero)
+            transform.localPosition = CurrentPosition;
         animation = GetComponent<Animator>();
         CurrentVel.Set(0, 0, 0);
         PrevVel = new Vector3(-0.5f, 0, 0);
@@ -19,6 +22,7 @@ public class Player_Movement : MonoBehaviour {
        // EzioMovement();
         EzioJoyMovement();
         transform.localPosition += CurrentVel;
+        CurrentPosition = transform.localPosition;
 	}
 
     void EzioJoyMovement()

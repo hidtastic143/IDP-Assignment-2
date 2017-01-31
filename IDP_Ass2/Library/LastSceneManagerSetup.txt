@@ -1,4 +1,12 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Hid/Shop.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/Hid/GameUI.unity
+=======
+- path: Assets/Scenes/Mal/Audio.unity
+>>>>>>> 6ea4ca5224babffb6e061bb6eba80caf67788ee8
+>>>>>>> 5f78d284b26dec79e5128120206d97ff3fdc56e1
   isLoaded: 1
   isActive: 1

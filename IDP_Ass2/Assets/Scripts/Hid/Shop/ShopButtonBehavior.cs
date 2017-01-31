@@ -11,7 +11,7 @@ public class ShopButtonBehavior : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         OriginalScale = transform.localScale;
-        ToggledScale = transform.localScale + new Vector3(0.3f, 0.3f, 0.3f);
+        ToggledScale = transform.localScale + new Vector3(0.1f, 0.1f, 0.1f);
 	}
 	
 	// Update is called once per frame

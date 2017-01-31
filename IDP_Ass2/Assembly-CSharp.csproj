@@ -45,7 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Hid\GameUI\Joy_Behavior.cs" />
      <Compile Include="Assets\Scripts\Hid\GameUI\LoadNewScene.cs" />
+     <Compile Include="Assets\Scripts\Hid\GameUI\PlayerHpandMana.cs" />
+     <Compile Include="Assets\Scripts\Hid\GameUI\Player_Movement.cs" />
      <Compile Include="Assets\Scripts\Hid\Shop\ArmourObject.cs" />
      <Compile Include="Assets\Scripts\Hid\Shop\ButtonToggler.cs" />
      <Compile Include="Assets\Scripts\Hid\Shop\ConsumableObject.cs" />
@@ -54,6 +57,9 @@
      <Compile Include="Assets\Scripts\Hid\Shop\ShopListOption.cs" />
      <Compile Include="Assets\Scripts\Hid\Shop\ShopObject.cs" />
      <Compile Include="Assets\Scripts\Hid\Shop\WeaponObject.cs" />
+     <Compile Include="Assets\Scripts\Mal\Dialogue\DialogueText.cs" />
+     <Compile Include="Assets\Scripts\Mal\MainMenu\Menu.cs" />
+     <Compile Include="Assets\Scripts\Mal\Options\ReturnBtn.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

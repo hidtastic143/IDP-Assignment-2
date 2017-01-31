@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Hid/GameUI.unity
-=======
-- path: Assets/Scenes/Mal/Dialogue.unity
->>>>>>> aa6dd84d41d511de67d1cc323803be8ec50e9968
   isLoaded: 1
   isActive: 1
